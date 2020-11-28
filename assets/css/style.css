@@ -1,0 +1,135 @@
+/*general css*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*header css */
+header{
+	padding: 15px 0;
+}
+.brand img{
+	width: 60%!important;
+}
+.menu li a{
+	font-size: 20px;
+	color:#505050!important;
+	padding: 0 20px!important;
+	display: inline-block;
+	transition: 0.3s ease;
+}
+.menu li a:hover{
+	color:#43CB83!important; 
+}
+
+/*slider css*/
+.overlay{
+	background-color: rgba(121,211,164,0.7);
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 100%;
+}
+.carousel-content{
+	top:40%;
+}
+
+.carousel-content h5{
+	font-size: 35px;
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+}
+.carousel-content p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+}
+.carousel-content a{
+	color: #000;
+	text-decoration: none;
+	background-color: #fff;
+	display: inline-block;
+	padding: 12px 30px;
+	border-radius: 10px;
+}
+.carousel-content a:hover{
+	background-color: #43CB83;
+	color:#fff;
+}
+
+.product{
+	width: 100%;
+	background-color: #ffffff;
+}
+.container h4{
+	font-size: 30px;
+	font-weight: 700px;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 35px;
+}
+.container i{
+	font-size: 65px;
+	background-color: #A1D21F;
+	color: white;
+	padding:10px;
+	border-radius:50%;
+	font-size:65px;
+}
+.product-list{
+	text-align: center;
+	text-transform: uppercase;
+}
+.product-list h3{
+	font-size: 20px;
+}
+.product-list p{
+	text-transform: lowercase;
+	padding-bottom: 20px;
+}
+.about{
+	background-color: #F0F0F0;
+}
+.product-list{
+	padding: 50px;
+}
+.product-list h5{
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.jon{
+	margin: 35px 290px;
+}
+.form{
+	background-color: #43CB83;
+}
+.text{
+	color: #43CB83;
+	background-color:#fff;
+	position: sticky;
+	margin-left:20px;
+}
+.border{
+	border: 1px solid white;
+	border-radius: 5px;
+}
+.form-inline{
+	padding: 25px 35px;
+}
+.form-control-plaintext{
+	text-align: left;
+	margin-left: 25px;
+	color: #fff;
+}
+.company{
+	padding: 25px;
+}
+.copyright{
+	background-color: #2A2A2A;
+	color:white;
+	text-align:center;
+	padding:8px;
+	font-size:12px;
+}
